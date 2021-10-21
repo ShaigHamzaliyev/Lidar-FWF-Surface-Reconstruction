@@ -4,10 +4,8 @@ import functions
 import numpy as np
 import pandas as pd
 import math
-from vdiffusion import diffuse
 from sklearn.neighbors import BallTree
 from scipy.spatial import cKDTree 
-from bridson import poisson_disc_samples
 import imp
 import trimesh as trm
 from skimage.measure import marching_cubes
